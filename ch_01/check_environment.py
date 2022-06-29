@@ -11,6 +11,7 @@ FAIL = '\x1b[41m[FAIL]\x1b[0m'
 
 github_package_pattern = re.compile(r'(?:\/)([\w*\-*]*)(?:\.git)')
 
+
 def run_checks():
     """Check that the packages we need are installed and the Python version is high enough."""
     # check the python version
